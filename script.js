@@ -421,8 +421,8 @@ if (readings) {
             const link = document.createElement("a"); // Create a link element
             link.href = `${baseUrl}${version.id}/${encodeURIComponent(passage)}`; // Construct the URL
             link.textContent = passage; // Set the display text
-            link.target = "_blank"; // Open in a new tab
-            link.style.display = "block"; // Each link on a new line
+            //link.target = "_blank"; // Open in a new tab
+            link.style.display = "grid"; // block = each link on a new line, no idea what grid does
             linksContainer.appendChild(link); // Add the link to the container
         });
     });
