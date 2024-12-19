@@ -423,8 +423,7 @@ if (readings) {
             link.textContent = passage; // Set the display text
             //link.target = "_blank"; // Open in a new tab 
             link.style.display = "inline"; // block = each link on a new line, no idea what grid does
-
-            
+            link.style.marginRight = "10px"; // Add space between links
             linksContainer.appendChild(link); // Add the link to the container
         });
     });
